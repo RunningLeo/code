@@ -88,7 +88,7 @@ public class TwoStackQueue {
 			System.out.println("====r4="+r4);
 			System.out.println("====r5="+r5);
 
-	//		System.out.println("====r6="+r6);
+			System.out.println("====r6="+r6);
 
 		}catch (Exception e){
 			log.info("======异常=====");
