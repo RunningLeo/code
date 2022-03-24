@@ -98,11 +98,35 @@ public class _122_最佳卖股票的时机2 {
 	}
 
 
+	public static int maxProfit3(int[] prices) {
+
+		if (prices.length == 0) {
+			return 0;
+		}
+
+		int profit = 0;
+
+
+		for (int i = 1; i < prices.length; i++){
+
+			int tempProfit = prices[i] - prices[i-1];
+			if( tempProfit> 0){
+				profit += tempProfit;
+			}
+		}
+
+
+		return profit;
+
+
+	}
+
+
 
 
 	public static void main(String[] args) {
 		int[] a = new int[]{7,1,5,3,6,4};
-		int max = maxProfit2(a);
+		int max = maxProfit3(a);
 		System.out.println("====最大利润：" + max);
 
 	}
