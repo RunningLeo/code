@@ -1,4 +1,4 @@
-package com.cyf.code.easy;
+package com.cyf.code.hard;
 
 /**
  * @author ：caoyafei
@@ -7,7 +7,7 @@ package com.cyf.code.easy;
  * Find the median of the two sorted arrays.
  * The overall run time complexity should be O(log(m + n)).
  */
-public class FindMedianSortedArrays {
+public class _4_寻找两个正序数组的中位数 {
 
 	public static double findMedian(int[] a, int[] b) {
 		int len1;
